@@ -63,7 +63,7 @@
         }
     });
     $('.back-to-top').click(function () {
-        $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
+        $('html, body').animate({scrollTop: 0}, 800, 'easeInOutExpo');
         return false;
     });
 
@@ -71,7 +71,8 @@
     // Header carousel
     $(".header-carousel").owlCarousel({
         autoplay: true,
-        smartSpeed: 1500,
+        autoplayTimeout: 11500,
+        smartSpeed: 2000,
         items: 1,
         dots: false,
         loop: true,

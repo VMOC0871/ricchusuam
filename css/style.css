@@ -224,7 +224,7 @@
     background: transparent;
     border: 1px solid #ffffff;
     font-size: 28px;
-    transition: 1.9s;
+    transition: 0.5s;
     bottom: 10px;
 }
 
@@ -247,7 +247,7 @@
     border: 1px solid #ffffff;
     background-color: transparent;
     margin: 0 5px;
-    transition: .5s;
+    transition: .9s;
 }
 
 .header-carousel .owl-dot.active {
@@ -302,6 +302,7 @@
     padding: 10px; /* Espaciado interno del contenido */
     background-color: #f8f9fa; /* Color de fondo del contenido */
   }
+
 
 /*** Service ***/
 .service-item {
